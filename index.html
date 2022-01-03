@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="cipher.js"></script>
+  
+
+  <title>Espacio Seguro</title>
+  
+</head>
+ 
+<body>
+  <div class= "esquina"><button type="button" onclick="document.location='nosotras.html'">SOBRE NOSOTRAS</button></div>
+ <div class= "esquina2"><button type="button"  onclick="document.location='recursos.html'">RECURSOS</button></div>
+
+  <div class="flexbox">
+ <div class="contenedor">
+
+  <h1> HOLA, AMIGA </h1>
+  <br>
+  <button id="btn-abrir-popup" class="btn-abrir-popup" >¿Cómo funciona?</button>
+  <br>
+  <br>
+  <h2>Escribe tu mensaje aqui:</h2>
+  <br>
+  <h3>MENSAJE:</h3>
+  <p><input type=" text" id= "mensaje"></p>
+  <br>
+   <h3>DESPLAZAMIENTO:</h3>
+  <p><input div class= "barra" type="number" id="desplazamiento" size="4"/></p>
+  <br>
+  <p><button div class=".button:hover" type="button" id="cifrar">Cifrar</button></p>
+  <button type="button" id="descifrar">Descifrar</button> <br>
+  <h3>MENSAJE CIFRADO/DESCIFRADO:</h3>
+  <p><input type="text" id="mensaje2"></p> </div>
+
+  <div class="overlay" id="overlay">
+			<div class="popup" id="popup">
+				<a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+				<div class="titulo-popup">Bienvenida :)</div>
+				<h4>Esta es una aplicación de cifrado y descifrado para mensajería entre mujeres y redes de apoyo para abortar. Si llegaste aqui, no te preocupes, tu mensaje está seguro con nosotras. </h4>
+        <br>
+        <h4>Para cifrar, escribe tu mensaje en la casilla y selecciona el desplazamiento, luego presiona el botón "cifrar" y listo. Para descifrar, copia y pega el mensaje cifrado en la primera casilla y presiona el botón "descifrar".</h4>
+			</div>
+		</div>
+	</div>
+
+    <script src="index.js"></script>
+    
+  </body>
+  </html>
